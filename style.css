@@ -1,3 +1,6 @@
+.test{
+    display: flex;
+}
 .main{
 width:100px;
 height:250px;
