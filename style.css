@@ -1,3 +1,126 @@
-.test{
-    display: block;
+ul{
+    list-style: none;
+}   
+.main{
+    display: flex;
+    width: 1900px;
+    height: auto;
+    background-color:blueviolet;
+}
+.mainLouvre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1900px;
+    height: 900px;
+    background: url("BG.png");
+    justify-content: flex-end;
+
+}
+.mainBlocNav{
+    display: flex;
+    width: 1900px;
+    height: 200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+.mainNav{
+    display: flex;
+    width: 1300px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.link-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    gap: 5px;
+}
+a.link{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    text-align: left;
+    opacity: 0.53;
+
+}
+.logo{
+    width: 195px;
+    height: 50px;
+    left: -70px;
+}
+#logo1{
+    background: url("Logo.png");
+}
+.mainBackground{
+    display: flex;
+    width: 1200px;
+    height: 700px;
+   
+    left: -500px;
+}
+#background1{
+    background: url("background.jpg");
+}
+.mainDescription{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 500px;
+    height: 350px;
+    top: 150px ;
+    right: -120px;
+  
+
+}
+.mainDescriptiontitle{
+    width: auto;
+    height: 90px;
+
+}
+.title1{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.promo1{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.but1{
+    display: flex;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #710707;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+}
+.butDescription{
+    display: flex;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
 }
