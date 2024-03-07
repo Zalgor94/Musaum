@@ -7,6 +7,7 @@ li{
 .main{
     position: relative;
     top: -9px;
+    left: -10px;
     width: 1920px;
     height: auto;
     background-color:blueviolet;
@@ -15,7 +16,7 @@ li{
     display: flex;
     flex-wrap: wrap;
     width: 1920px;
-    height: 900px;
+    height: 950px;
     background: url("BG.png");
     justify-content: flex-end;
 
@@ -35,7 +36,7 @@ li{
     position: relative;
     width: 195px;
     height: 50px;
-    left: -45px;
+    left: -35px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +70,7 @@ li{
     width: 720px;
     height: 50px;
     justify-content: space-between;
-    left:30px;
+    left:40px;
 }
 a.link{
     text-decoration: none;
@@ -80,7 +81,7 @@ a.link{
     letter-spacing: 2px;
     text-align: left;
     color:#FFFFFF;
-    opacity: 0.99;
+
 
 }
 .logo{
@@ -95,8 +96,8 @@ a.link{
 }
 .main_background__louvre{
     display: flex;
-    width: 1200px;
-    height: 700px;
+    width: 1215px;
+    height: 750px;
    
     left: -500px;
 }
@@ -107,45 +108,56 @@ a.link{
     display: flex;
     position: relative;
     flex-direction: column;
-    width: 500px;
-    height: 350px;
-    top: 150px ;
-    right: -120px;
+    width: 598px;
+    height: 390px;
+    top: 117px ;
+    right: -135px;
   
 
 }
-.mainDescriptiontitle{
-    width: auto;
-    height: 90px;
 
-}
 .title_greeting{
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 60px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-family: Roboto;
-    letter-spacing: 2px;
+    font-family: Forum;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
     text-align: left;
+    
 }
 .promo_louvre{
+    position: relative;
+    top: 22px;
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 25px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto 'Open Sans', 'Helvetica Neue', sans-serif;
     font-family: Roboto;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 33px;
     letter-spacing: 2px;
     text-align: left;
+
 }
 .but_discover{
+    position: relative;
+    top: 100px;
     display: flex;
-    width: 300px;
-    height: 70px;
+    width: 360px;
+    height: 75px;
     border-radius: 10px;
     background-color: #710707;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
   
 }
