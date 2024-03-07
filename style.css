@@ -161,3 +161,32 @@ a.link{
     color: #FFFFFF;
   
 }
+.musaum{
+
+    position: absolute;
+    width: 1440px;
+    height: 5556px;
+    top: 314px;
+    left: 240px;
+    
+
+}
+.musaum_virtualtour{
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 1115px;
+    top: 711px;
+
+}
+.musaum_virtualtour__title{
+    width: 546px;
+    height: 90px;
+    font-family: Forum;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #9D8665;
+}
