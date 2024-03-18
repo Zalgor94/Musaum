@@ -4,26 +4,31 @@ ul{
 li{
     list-style: none;
 } 
+body{
+margin: 0 auto;
+}
+.text_size__m{
+font-size: 16px;
+}
+.text_size__xl{
+    font-size: 24px;
+    }
 .main{
-    position: relative;
-    top: -9px;
-    left: -10px;
-    width: 1920px;
-    height: auto;
-    background-color:blueviolet;
+    width: 100%;
 }
 .main_louvre{
     display: flex;
     flex-wrap: wrap;
-    width: 1920px;
+    width: 100%;
     height: 950px;
     background: url("BG.png");
     justify-content: flex-end;
+    margin-bottom: 75px;
 
 }
 .main_louvre__nav{
     display: flex;
-    width: 1920px;
+    width: 100%;
     height: 200px;
     flex-direction: row;
     justify-content: center;
@@ -61,7 +66,6 @@ li{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
 }
 .link_container{
     position: relative;
@@ -74,22 +78,19 @@ li{
 }
 a.link{
     text-decoration: none;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 22px;
     font-weight: 200;
     line-height: 50px;
     letter-spacing: 2px;
     text-align: left;
     color:#FFFFFF;
-
-
 }
 .logo{
     width: 49px;
     height: 26px;
     position: relative;
-    top: -5px;
-    
+    top: -5px;   
 }
 #logo1{
     background: url("Logo.png");
@@ -98,7 +99,6 @@ a.link{
     display: flex;
     width: 1215px;
     height: 750px;
-   
     left: -500px;
 }
 #background_louvre{
@@ -112,20 +112,17 @@ a.link{
     height: 390px;
     top: 117px ;
     right: -135px;
-  
-
 }
 
 .title_greeting{
     text-decoration: none;
     color: #FFFFFF;
-    font-family: Forum;
+    font-family: "Forum";
     font-size: 80px;
     font-weight: 400;
     line-height: 90px;
     letter-spacing: 5px;
-    text-align: left;
-    
+    text-align: left;  
 }
 .promo_louvre{
     position: relative;
@@ -138,7 +135,6 @@ a.link{
     line-height: 33px;
     letter-spacing: 2px;
     text-align: left;
-
 }
 .but_discover{
     position: relative;
@@ -152,41 +148,605 @@ a.link{
     justify-content: center;
     align-items: center;
     align-content: center;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-size: 22px;
     font-weight: 200;
     line-height: 26px;
     letter-spacing: 2px;
     text-align: center;
     color: #FFFFFF;
-  
 }
 .musaum{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: -2px;
 
-    position: absolute;
+}
+.container{
     width: 1440px;
-    height: 5556px;
-    top: 314px;
-    left: 240px;
-    
-
 }
 .musaum_virtualtour{
-    display: flex;
-    position: relative;
-    width: 1440px;
-    height: 1115px;
-    top: 711px;
-
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 .musaum_virtualtour__title{
+    display: block;
     width: 546px;
     height: 90px;
-    font-family: Forum;
+    font-family: "Forum";
     font-size: 80px;
     font-weight: 400;
     line-height: 90px;
     letter-spacing: 5px;
     text-align: left;
     color: #9D8665;
+    margin-bottom: 25px;
+}
+.red_line{
+    width: 100%;
+    height: 3px;
+    background: #710707;
+    margin-bottom: 75px;
+}
+.musaum_virtualtour__bloc{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 1000px;
+}
+.musaum_virtualtour__masterpiece{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 440px;
+    height: 422px;
+}
+.musaum_virtualtour__img{
+    width: 440px;
+    height: 285px;
+}
+#virtualtour_royalpalace__img{
+    background: url("Rectangle.jpg");
+}
+#virtualtour_denonwing__img{
+    background: url("2.jpg");
+}
+#virtualtour_colonnadeperrault__img{
+    background: url("3.jpg");
+}
+#virtualtour_greekhall__img{
+    background: url("4.jpg");
+}
+#virtualtour_monalisa__img{
+    background: url("5.jpg");
+}
+#virtualtour_nightpalace__img{
+    background: url("6.jpg");
+}
+.virtualtour_title{
+    display: block;
+    height: 35px;
+    font-family: "Forum";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #000000;
+    margin-top: 25px;
+}
+.red_line__short{
+    width: 300px;
+    height: 2px;
+    background: #710707;
+    margin-top: 10px;
+}
+.virtualtour_360{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 10px;
+}
+.virtualtour_google{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 8px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 865px;
+    background: #030303;
+
+}
+.picture_bloc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 715px;
+
+}
+.picture_bloc__title{
+    display: block;
+    font-family: "Forum";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-align: left;
+    color:  #FFFFFF;
+}
+.picture_bloc__line{
+    width: 660px;
+    height: 3px;
+    top: 115px;
+    background: #710707;
+    margin-top: 24px;
+}
+.picture_bloc__description{
+    display: block;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+.picture_bloc__description1{
+    display: block;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.picture_bloc__descriptionyellow{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #dfbc8a;
+}
+.picture_bloc__img{
+    width: 720px;
+    height: 700px; 
+    margin-top: 13px;
+    margin-left: 58px;
+}
+#picture_bloc__img{
+    background:url("picture_bloc1.png")
+}
+.videojourney{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.videojourney_container{
+    width: 1440px;
+}
+.videojourney_container__video{
+    width: 1440px;
+    height: 714px;
+    margin-top: 90px;
+}
+#videojourney_container__video{
+    background:url("video.png")
+}
+.videojourney_container__text{
+    display: flex;
+    width: 1440px;
+    height: 90px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 38px;
+}
+.container_text__title{
+    font-family: "Forum";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #9D8665;
+}
+.container_text__description{
+    display: block;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    width: 720px;
+    height: 90px;
+    margin-top: 9px;
+}
+.tickets{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 893px;
+    background: #030303;
+    margin-top: 75px;
+}
+.tickets_contener {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-direction: row;
+    width: 1440px;
+    height: 743px;
+}
+.tickets_contener__title{
+    font-family: "Forum";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.tickets_contener__line{
+    width: 1440px;
+    height: 3px;
+    top: 115px;
+    background: #710707;
+    margin-top: 25px;
+}
+.tickets_contener__img{
+    width: 720px;
+    height: 550px; 
+    margin-top: 75px;
+}
+#tickets_contener__img{
+    background:url("buy.png")
+}
+.tickets_contener__tiketstype{
+    display: flex;
+    width: 270px;
+    height: 262px;
+    margin-top: 75px;
+    margin-left: 60px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tiketstype_title{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.tiketstype_type{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 270px;
+    height: 25px;
+}
+.tiketstype_type__circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFF;
+}
+.tiketstype_type__description{
+    display: block;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+    margin-left: 20px;
+}
+.tickets_contener__amount{
+    width: 150px;
+    height: 342px;
+    margin-left: 240px;
+    margin-top: 75px;
+}
+.amount{
+    display: block;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.amount_basic{
+    width: 150px;
+    height: 90px;
+    margin-top: 15px;
+}
+.amount_basic__title{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 145px;
+    height: 45px;
+    border: 3px solid #FFFFFF;
+    margin-top: 10px;
+}
+.rectangle_-{
+    display: block;
+    font-family: "Roboto";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+.rectangle_0{ 
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-left: px;
+}
+.rectangle_1{
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 4px;
+    margin-right: 12px;
+}
+.amount_senior{
+    width: 150px;
+    height: 90px;
+    margin-top: 38px;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 33px;
+    margin-top: 48px;
+}
+.total_cost{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 1.649999976158142px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.total_amount{
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 1.649999976158142px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.buy{
+    width: 175px;
+    height: 50px;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000000;
+    margin-left: 1265px;
+    margin-top: -156px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.contacts_conteiner{
+    width: 1440px;
+    height: 960px; 
+    flex-wrap: wrap;
+}
+.contacts_conteiner__title{
+    display: block;
+    font-family: "Forum";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 90px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #9D8665;
+    margin-top: 75px;
+}
+.contacts_conteiner__line{
+    width: 1440px;
+    height: 3px;
+    background: #710707;
+    margin-top: 25px;
+}
+.contacts_conteiner__address{
+    width: 282px;
+    height: 221px;
+}
+.address_name{
+    display: block;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 85px;
+}
+.address_address{
+    display: block;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 38px;
+}
+.address_phone{
+    display: block;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 20px;
+}
+.address_mail{
+    display: block;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-top: 20px;
+}
+.contacts_conteiner__map{
+    width: 960px;
+    height: 620px; 
+    margin-left: 480px ;
+    margin-top: -230px;
+}
+#contacts_conteiner__map{
+    background:url("map.png")
+} 
+.footer{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background: #030303;
+    margin-top: 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.footer_logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 195px;
+    height: 50px;
+    margin-top: 2px;
+}
+.footer_logo_logo{
+    width: 50px;
+    height: 34px;
+    margin-top: 8px;
+}
+.footer_logo_title{
+    font-family: "Forum";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.footer_nav{
+    width: 1440px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer_nav_nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 522px;
+    height: 150px;
+    justify-content: space-between;
+    margin-left: 105px;
+    margin-top: 2px;
+}
+a.footer_link{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer_nav_social{
+    width: 336px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 241px;
+    margin-top: 90px;
+}
+.footer_social__circle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    border: 1px solid #666666
 }
